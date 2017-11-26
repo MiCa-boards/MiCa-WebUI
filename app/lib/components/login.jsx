@@ -166,7 +166,7 @@ export default class loginComponent extends React.Component {
               hintText={ __('Please enter your password') }
               type={ textType }
               floatingLabelStyle={{ color: 'rgba(0, 0, 0, 0.498039)' }}
-              underlineFocusStyle={{ borderColor: Colors.amber700 }}
+              underlineFocusStyle={{ borderColor: Colors.blue700 }}
               style={{ marginTop: '-10px', ...styles.basicWidth}}
               onChange={
                 (e)=> {
@@ -190,7 +190,7 @@ export default class loginComponent extends React.Component {
                 }
                 style={{
                   textAlign: 'left',
-                  color: Colors.amber700,
+                  color: Colors.blue700,
                   textDecoration: 'none',
                   cursor: 'pointer',
                   fontSize: '14px',
@@ -201,7 +201,7 @@ export default class loginComponent extends React.Component {
               linkButton
               secondary
               label={ __('Sign in') }
-              backgroundColor={ Colors.amber700 }
+              backgroundColor={ Colors.blue700 }
               onTouchTap={ this._handleLogin }
               type="submit"
               style={ styles.basicWidth }>
